@@ -7,52 +7,59 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+**Sistem Kasir-App** AMELIA HADI NURFITRIYANA 23040034
+<h2 align="center">Preview Tampilan</h2>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d1f25ae2-d755-4ca0-8d47-45f344c52eed" width="400"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b8585afe-ea10-49fc-b3ae-823c0ea4d091" width="400"/>
+    </td>
+  </tr>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/be31b256-8b1d-4900-9f7f-1bbb3a85b622" width="400"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/012d16b8-7349-48fa-83a7-d6ee792aee7d" width="400"/>
+    </td>
+  </tr>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b4098c29-5b95-4863-ac94-4a927b8d824f" width="400"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/87e69e43-c20d-416c-81b4-ef9704c89b9a" width="400"/>
+    </td>
+  </tr>
 
-## Learning Laravel
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d6acab40-cdf7-43e5-a35c-736ff9b1a7fd" width="400"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d1feda0f-aea9-49bb-a434-5755f48306b4" width="400"/>
+    </td>
+  </tr>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github.com/user-attachments/assets/6f51a237-1eae-432a-ae14-f3b90a183ab4" width="500"/>
+    </td>
+  </tr>
+</table>
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
 
-## Agentic Development
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
 
-```bash
-composer require laravel/boost --dev
 
-php artisan boost:install
-```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
