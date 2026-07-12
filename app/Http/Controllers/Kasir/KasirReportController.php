@@ -12,11 +12,26 @@ class KasirReportController extends Controller
     public function index(Request $request)
     {
         $range = $request->input('range', 'daily');
+        $transactions = $this->getTransactions($range);
+
+        return view('kasir.reports.index', compact('transactions', 'range'));
+    }
+
+    public function print(Request $request)
+    {
+        $range = $request->input('range', 'daily');
+        $transactions = $this->getTransactions($range);
+
+        return view('kasir.reports.print', compact('transactions', 'range'));
+    }
+
+    protected function getTransactions(string $range)
+    {
         $query = Transaction::query();
 
         switch ($range) {
             case 'weekly':
-                $query->whereBetween('created_at', [now()->startOfWeek(), now()->endOfWeek()]);
+                $query->whereBetween('created_at', [now()->startOfWeek()->toDateTimeString(), now()->endOfWeek()->toDateTimeString()]);
                 break;
             case 'monthly':
                 $query->whereMonth('created_at', now()->month);
@@ -25,8 +40,6 @@ class KasirReportController extends Controller
                 $query->whereDate('created_at', now()->toDateString());
         }
 
-        $transactions = $query->orderBy('created_at', 'desc')->get();
-
-        return view('kasir.reports.index', compact('transactions', 'range'));
+        return $query->orderBy('created_at', 'desc')->get();
     }
 }

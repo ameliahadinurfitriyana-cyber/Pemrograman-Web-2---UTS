@@ -111,6 +111,7 @@ Route::middleware(['auth', 'kasir'])->group(function () {
     Route::get('/kasir/transactions/create', [KasirTransactionController::class, 'create'])->name('kasir.transactions.create');
     Route::post('/kasir/transactions', [KasirTransactionController::class, 'store'])->name('kasir.transactions.store');
     Route::get('/kasir/transactions/{transaction}', [KasirTransactionController::class, 'show'])->name('kasir.transactions.show');
+    Route::get('/kasir/transactions/{transaction}/print', [KasirTransactionController::class, 'print'])->name('kasir.transactions.print');
     Route::delete('/kasir/transactions/{transaction}', [KasirTransactionController::class, 'destroy'])->name('kasir.transactions.destroy');
     Route::get('/kasir/customers', [\App\Http\Controllers\Kasir\KasirCustomerController::class, 'index'])->name('kasir.customers.index');
 });

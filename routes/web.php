@@ -41,5 +41,6 @@ Route::middleware(['auth', 'kasir'])->group(function () {
     })->name('kasir.dashboard');
 
     Route::get('/kasir/reports', [KasirReportController::class, 'index'])->name('kasir.reports.index');
+    Route::get('/kasir/reports/print', [KasirReportController::class, 'print'])->name('kasir.reports.print');
 });
 

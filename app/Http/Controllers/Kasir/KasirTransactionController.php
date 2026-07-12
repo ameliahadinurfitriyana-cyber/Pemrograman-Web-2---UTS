@@ -113,6 +113,13 @@ class KasirTransactionController extends Controller
         return view('kasir.transactions.show', compact('transaction'));
     }
 
+    public function print(Transaction $transaction)
+    {
+        $transaction->load('customer', 'details.product');
+
+        return view('kasir.transactions.print', compact('transaction'));
+    }
+
     public function destroy(Transaction $transaction)
     {
         $transaction->delete();

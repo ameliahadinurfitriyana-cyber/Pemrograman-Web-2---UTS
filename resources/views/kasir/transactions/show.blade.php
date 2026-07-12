@@ -51,6 +51,7 @@
             </div>
 
             <div class="card-actions justify-end gap-2">
+                <a href="{{ route('kasir.transactions.print', $transaction->id) }}" target="_blank" class="btn btn-primary">Print Nota</a>
                 <form action="{{ route('kasir.transactions.destroy', $transaction->id) }}" method="POST" class="inline" onsubmit="return confirm('Are you sure?')">
                     @csrf
                     @method('DELETE')
